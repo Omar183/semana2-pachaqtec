@@ -1,3 +1,96 @@
-body {
-    background-color: #ffd233;
+body{
+    display: block;
+    background-image: url(../img/bricks.jpg)
+    }
+*{
+    padding: 10px;
+    margin: 0px;
 }
+#header{
+        min-width: 1024px;
+        width: 100%;
+        height: 700px;
+        margin: 0px auto;
+    }
+#header a{
+        text-decoration: none;
+        }
+#header, #logotipo{
+        width: 770px;
+        margin: 0px auto;
+        padding-top: 20px;
+    }
+#header #logotipo img{
+        display: block;
+        text-align: center;
+        margin: 0px auto;
+        width: 10%;
+        }
+#header h1{
+        text-align: center;
+        font-size: 40px;
+        color: #eb5d0c;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 10px;
+        text-shadow: 0px 2px 1px #333333;
+        transition: all 300ms;
+    }
+#header h1:hover{
+        text-shadow: 0px 2px 1px #333333, 0px 0px 4px #000000;
+    }
+#header h2{
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        color: #5f616d;
+    }
+#main{
+    display: block;
+    padding-top: 10px;
+    margin: 1px auto;
+}
+#section, h2{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #5f616d;
+}
+#section, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(49, 29, 163);
+    text-align: justify;
+}
+#content{
+    width:1250px;
+    min-height: 100px;
+    margin:0px auto;
+}
+
+/*Barra lateral*/
+#aside{
+    width: 300px;
+    margin:30px;
+    background-color: whitesmoke;
+    border: 1px solid wheat;
+    box-shadow: 0px 2px 2px #ccc;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+#aside .widget{
+    display: block;
+    width: 180px;
+    margin: 5px auto;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    border-bottom: 1px dashed #383131;
+}
+#aside .widget:last-child{
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+  }
